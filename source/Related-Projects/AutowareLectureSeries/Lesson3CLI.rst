@@ -31,6 +31,7 @@ Let's setup our environment::
   
   cd adehome
   export PATH=$PATH:$PWD
+  cd AutowareAuto
   ade start
   ade enter
 
@@ -218,19 +219,6 @@ Let's try this ``ros2 node info`` command!
 
 ----
 
-====
-What about non CLI options?
-====
-
-* Understanding complex graphs as a list of node and topic names in our shell is really hard.
-* Good news: we have a GUI tool!
-* Type ``rqt_graph`` in the terminal.
-* The little double arrow in the top left will load nodes. 
-
-.. image:: ./images/rqt_graph.png
-	   :width: 400
-
-----
 
 ====
 ROS topic CLI interface 
@@ -421,7 +409,7 @@ Let's look at a few.
         mean: 0.02KB min: 0.02KB max: 0.02KB window: 100
 
 
----
+----
 
 ====
 Topic Diagnostics
@@ -512,7 +500,7 @@ You can set QoS parameters for the messages, mock the sending node, and modify t
 But there is also a GUI tool! 
 ====
 
-If the command line isn't your thing quite a few things can be accomplished via the ``rqt_gui``. 
+If the command line isn't your thing quite a few things can be accomplished via the ``rqt_topic``. 
 The rqt GUI can be started by running ``rqt`` in the command line. 
 You'll want to restart the draw square node by running ``ros2 run turtlesim draw_square`` in the command line. 
 You should be able to press the arrow up key to get the command back.
@@ -529,6 +517,22 @@ Once you do that you should see something like what's below. You may need to res
 
 
 ----
+
+====
+Node GUI Tools
+====
+
+* Understanding complex graphs as a list of node and topic names in our shell is really hard.
+* Good news: we have a GUI tool!
+* Type ``rqt_graph`` in the terminal.
+* The little double arrow in the top left will load nodes. 
+
+.. image:: ./images/rqt_graph.png
+	   :width: 400
+
+----
+
+
 
 ====
 ROS parameters

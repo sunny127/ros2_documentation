@@ -46,44 +46,43 @@ Lesson 3: ROS 2 Tooling - Develop Like a Pro
 #. Overview and Motivating Concepts
     #. The Command Line
     #. Environment Variables
-#. Setuping up a Workspace.
-    #. Say it 10 times: source setup.bash
-    #. Checking your environment.
 #. Setting up our Toy Environment:
-    #. Review Lesson 1?
-    #. Workspaces again?
-    #. Building again?
-    #. Launching again?
+#. ROS2 --help 
 #. Command Line Tooling in ROS 2:
     #. ros2 run: execute a program
-    #. rqt_graph - inspecting nodes
     #. ros2 node: inspect a node
        #. ros2 node list
        #. ros2 node info
 #. "Sniffing the Bus": Examining Topics
     #. ros2 topic list
     #. ros2 topic echo
-    #. ros2 topic info
-    #. ros2 interface show
-    #. ros2 topic pub
     #. ros2 topic hz
-    #. GUI Tools: rqt_plot / rqt_graph
-#. Services: Making things Happen
-    #. ros2 service list
-    #. ros2 service type
-    #. ros2 service find
-    #. ros2 interface show
-    #. ros2 service call
-    #. Seeing your results rviz2
+    #. ros2 topic info
+    #. ros2 msg show
+    #. ros2 topic pub
+#. GUI Equivalents
+   #. RQT
+   #. gqt_graph
+    #. ros2 topic pub
 #. Parameters
     #. ros2 param list
     #. ros2 param get
     #. ros2 param set
+#. Services: Making things Happen
+    #. ros2 service list
+    #. ros2 service type
+    #. ros2 srv show
+    #. ros2 service call
+#. Actions
+   #. ros2 action list
+   #. ros2 action info
+   #. ros2 action send_goal
+   #. ros2 action show
+   #. More complex calls. 
 #. Logging Data: Secure the Bag
     #. What's a bag?
     #. ros2 bag record
     #. ros2 bag record -- selecting topics
     #. ros2 bag info
     #. ros2 bag play
-    #. Python tools for bag introspection
-    #. Bags as a collaborative tool
+#. Wrap up and Homework
