@@ -294,6 +294,15 @@ Known Issues
 
 * `[ros2/ros2#922] <https://github.com/ros2/ros2/issues/922>`_ Services' performance is flaky for ``rclcpp`` nodes using eProsima Fast-RTPS or ADLINK CycloneDDS as RMW implementation.
   Specifically, service clients sometimes do not receive the response from servers.
+* `[ros2/rviz#556] <https://github.com/ros2/rviz/issues/556>`_ Cannot build user plugins for RViz in overlay on fat binary installation.
+
+Windows
+^^^^^^^
+
+* `[ros-visualization/rqt_console#20] <https://github.com/ros-visualization/rqt_console/issues/20>`_ Unable to start rqt plugins with ``ros2run``.
+    * Worksaround: Run ``rqt`` and load the plugins via the GUI.
+* `[ros2/rviz#554] <https://github.com/ros2/rviz/issues/554>`_ Cannot build RViz in overlay on fat binary installation.
+
 
 
 Timeline before the release
