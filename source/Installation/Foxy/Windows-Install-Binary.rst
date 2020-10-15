@@ -160,6 +160,8 @@ RQt dependencies
 
 .. _Foxy_windows-install-binary-installing-rqt-dependencies:
 
+In Windows 10 create a new current user's environment variable QT_QPA_PLATFORM_PLUGIN_PATH and point it to where PyQT5 DLL's were installed to, in the general case ``C:\Python38\Lib\site-packages\PyQt5\Qt\plugins\platforms``
+
 To run rqt_graph, you'll need `Graphviz <https://graphviz.gitlab.io/>`__.
 
 .. code-block:: bash
